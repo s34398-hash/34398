@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แฟ้มสะสมผลงาน - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Prompt', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; }
+        header { position: fixed; top: 0; left: 0; width: 100%; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #2c3e50; }
+        .nav-links { display: flex; list-style: none; gap: 1.5rem; }
+        .nav-links a { text-decoration: none; color: #555; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: #3498db; font-weight: 700; }
+
+        .container { max-width: 900px; margin: 7rem auto 2rem; padding: 0 1.5rem; }
+        .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: center; }
+        h2 { color: #2c3e50; margin-bottom: 1.5rem; }
+        img { max-width: 100%; max-height: 500px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
+        p { font-size: 1.1rem; color: #4a5568; max-width: 700px; margin: 0 auto; }
+
+        @media (max-width: 768px) { .nav-links { gap: 0.8rem; font-size: 0.85rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">ข้อมูลส่วนตัว</a></li>
+                <li><a href="goals.html">เป้าหมาย</a></li>
+                <li><a href="portfolio.html" class="active">แฟ้มสะสมผลงาน</a></li>
+                <li><a href="contact.html">ช่องทางการติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>แฟ้มสะสมผลงาน</h2>
+            <!-- แสดงรูปภาพ CCE เกียรติบัตร.jpeg -->
+            <img src="CCE เกียรติบัตร.jpeg" alt="CCE เกียรติบัตร">
+            <p>เข้าร่วมการประชุมเชิงปฏิบัติการเสริมศักยภาพ เครือข่ายเด็กและเยาวชนด้านการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ช่องทางการติดต่อ - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Prompt', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; }
+        header { position: fixed; top: 0; left: 0; width: 100%; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #2c3e50; }
+        .nav-links { display: flex; list-style: none; gap: 1.5rem; }
+        .nav-links a { text-decoration: none; color: #555; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: #3498db; font-weight: 700; }
+
+        .container { max-width: 900px; margin: 7rem auto 2rem; padding: 0 1.5rem; }
+        h2 { text-align: center; color: #2c3e50; margin-bottom: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+        .box { background: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .box:hover { transform: translateY(-5px); }
+        .box i { font-size: 2.5rem; color: #3498db; margin-bottom: 1rem; }
+        .box h4 { color: #2c3e50; margin-bottom: 0.5rem; }
+        .box p, .box a { color: #666; text-decoration: none; font-size: 0.95rem; }
+
+        @media (max-width: 768px) { .nav-links { gap: 0.8rem; font-size: 0.85rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">ข้อมูลส่วนตัว</a></li>
+                <li><a href="goals.html">เป้าหมาย</a></li>
+                <li><a href="portfolio.html">แฟ้มสะสมผลงาน</a></li>
+                <li><a href="contact.html" class="active">ช่องทางการติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>ช่องทางการติดต่อ</h2>
+        <div class="grid">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h4>เบอร์โทรศัพท์</h4>
+                <p><a href="tel:0894074152">089-407-4152</a></p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h4>E-mail</h4>
+                <p><a href="mailto:fino.pun@gmail.com">fino.pun@gmail.com</a></p>
+            </div>
+            <div class="box">
+                <i class="fab fa-line"></i>
+                <h4>Line ID</h4>
+                <p>fini2552</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-instagram"></i>
+                <h4>Instagram</h4>
+                <p><a href="https://instagram.com/_furxna.pxz" target="_blank">_furxna.pxz</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
