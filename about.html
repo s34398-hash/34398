@@ -7,54 +7,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Prompt', sans-serif; }
-        body { background-color: #f8f9fa; color: #333; }
-        header { position: fixed; top: 0; left: 0; width: 100%; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        body { background-color: #fffbe6; color: #333; }
+        header { position: fixed; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.95); box-shadow: 0 4px 15px rgba(230, 180, 0, 0.15); z-index: 1000; }
         nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; }
-        .logo { font-size: 1.5rem; font-weight: 700; color: #2c3e50; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #d48806; }
         .nav-links { display: flex; list-style: none; gap: 1.5rem; }
-        .nav-links a { text-decoration: none; color: #555; font-weight: 500; }
-        .nav-links a:hover, .nav-links a.active { color: #3498db; font-weight: 700; }
+        .nav-links a { text-decoration: none; color: #555; font-weight: 500; transition: all 0.3s; padding: 0.3rem 0.8rem; border-radius: 20px; }
+        .nav-links a:hover, .nav-links a.active { color: #855800; background-color: #ffe58f; font-weight: 700; }
 
-        .container { max-width: 800px; margin: 7rem auto 2rem; padding: 0 1.5rem; }
-        .card { background: white; padding: 2.5rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-        h2 { color: #2c3e50; margin-bottom: 1.5rem; border-bottom: 3px solid #3498db; display: inline-block; padding-bottom: 0.3rem; }
-        p { font-size: 1.1rem; margin-bottom: 0.8rem; }
-        .timeline { margin-top: 1.5rem; border-left: 3px solid #3498db; padding-left: 1.5rem; }
-        .item { margin-bottom: 1rem; }
-        .item h4 { color: #2c3e50; font-size: 1.1rem; }
+        .container { max-width: 800px; margin: 8rem auto 2rem; padding: 0 1.5rem; }
+        .card { background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(212, 136, 6, 0.1); border-top: 6px solid #ffec3d; }
+        h2 { color: #ad6800; margin-bottom: 1.5rem; border-bottom: 3px dashed #ffe58f; display: inline-block; padding-bottom: 0.3rem; }
+        p { font-size: 1.1rem; margin-bottom: 0.8rem; color: #432b00; }
+        .timeline { margin-top: 1.5rem; border-left: 4px solid #ffc53d; padding-left: 1.5rem; }
+        .item { margin-bottom: 1.2rem; background: #fffbe6; padding: 1rem; border-radius: 12px; }
+        .item h4 { color: #855800; font-size: 1.1rem; }
 
-        @media (max-width: 768px) { .nav-links { gap: 0.8rem; font-size: 0.85rem; } }
+        @media (max-width: 768px) { .nav-links { gap: 0.5rem; font-size: 0.8rem; } }
     </style>
 </head>
 <body>
 
     <header>
         <nav>
-            <div class="logo">PORTFOLIO</div>
+            <div class="logo">🌴 PORTFOLIO 🌴</div>
             <ul class="nav-links">
-                <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="about.html" class="active">ข้อมูลส่วนตัว</a></li>
-                <li><a href="goals.html">เป้าหมาย</a></li>
-                <li><a href="portfolio.html">แฟ้มสะสมผลงาน</a></li>
-                <li><a href="contact.html">ช่องทางการติดต่อ</a></li>
+                <li><a href="index.html">🏠 หน้าแรก</a></li>
+                <li><a href="about.html" class="active">👤 ข้อมูลส่วนตัว</a></li>
+                <li><a href="goals.html">🎯 เป้าหมาย</a></li>
+                <li><a href="portfolio.html">📜 ผลงาน</a></li>
+                <li><a href="contact.html">📞 ติดต่อ</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
         <div class="card">
-            <h2>ข้อมูลส่วนตัว</h2>
+            <h2>👤 ข้อมูลส่วนตัว 🥥</h2>
             <p><strong>ชื่อ-นามสกุล:</strong> นาย ปุณณวิช ทนงศิลป์</p>
-            <p><strong>วันเกิด:</strong> 19/02/2552</p>
+            <p><strong>วันเกิด:</strong> 19/02/2552 🎂</p>
 
-            <h3 style="margin-top: 2rem; color: #2c3e50;">ประวัติการศึกษา</h3>
+            <h3 style="margin-top: 2rem; color: #ad6800;">🎓 ประวัติการศึกษา</h3>
             <div class="timeline">
                 <div class="item">
-                    <h4>มัธยมศึกษาตอนต้น</h4>
+                    <h4>🏫 มัธยมศึกษาตอนต้น</h4>
                     <p>โรงเรียนบ้านบึง"อุตสาหกรรมนุเคราะห์"</p>
                 </div>
                 <div class="item">
-                    <h4>มัธยมศึกษาตอนปลาย</h4>
+                    <h4>🏫 มัธยมศึกษาตอนปลาย</h4>
                     <p>โรงเรียนบ้านบึง"อุตสาหกรรมนุเคราะห์"</p>
                 </div>
             </div>
