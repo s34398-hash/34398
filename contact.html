@@ -8,43 +8,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Prompt', sans-serif; }
-        body { background-color: #f8f9fa; color: #333; }
-        header { position: fixed; top: 0; left: 0; width: 100%; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        body { background-color: #fffbe6; color: #333; }
+        header { position: fixed; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.95); box-shadow: 0 4px 15px rgba(230, 180, 0, 0.15); z-index: 1000; }
         nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; }
-        .logo { font-size: 1.5rem; font-weight: 700; color: #2c3e50; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #d48806; }
         .nav-links { display: flex; list-style: none; gap: 1.5rem; }
-        .nav-links a { text-decoration: none; color: #555; font-weight: 500; }
-        .nav-links a:hover, .nav-links a.active { color: #3498db; font-weight: 700; }
+        .nav-links a { text-decoration: none; color: #555; font-weight: 500; transition: all 0.3s; padding: 0.3rem 0.8rem; border-radius: 20px; }
+        .nav-links a:hover, .nav-links a.active { color: #855800; background-color: #ffe58f; font-weight: 700; }
 
-        .container { max-width: 900px; margin: 7rem auto 2rem; padding: 0 1.5rem; }
-        h2 { text-align: center; color: #2c3e50; margin-bottom: 2rem; }
+        .container { max-width: 900px; margin: 8rem auto 2rem; padding: 0 1.5rem; }
+        h2 { text-align: center; color: #ad6800; margin-bottom: 2rem; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
-        .box { background: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s; }
-        .box:hover { transform: translateY(-5px); }
-        .box i { font-size: 2.5rem; color: #3498db; margin-bottom: 1rem; }
-        .box h4 { color: #2c3e50; margin-bottom: 0.5rem; }
-        .box p, .box a { color: #666; text-decoration: none; font-size: 0.95rem; }
+        .box { background: white; padding: 1.8rem; border-radius: 18px; text-align: center; box-shadow: 0 8px 20px rgba(212, 136, 6, 0.1); transition: transform 0.3s, box-shadow 0.3s; border-top: 4px solid #ffd666; }
+        .box:hover { transform: translateY(-8px); box-shadow: 0 12px 25px rgba(212, 136, 6, 0.2); }
+        .box i { font-size: 2.5rem; color: #d48806; margin-bottom: 1rem; }
+        .box h4 { color: #613b00; margin-bottom: 0.5rem; }
+        .box p, .box a { color: #855800; text-decoration: none; font-size: 0.95rem; font-weight: 500; }
 
-        @media (max-width: 768px) { .nav-links { gap: 0.8rem; font-size: 0.85rem; } }
+        @media (max-width: 768px) { .nav-links { gap: 0.5rem; font-size: 0.8rem; } }
     </style>
 </head>
 <body>
 
     <header>
         <nav>
-            <div class="logo">PORTFOLIO</div>
+            <div class="logo">🌴 PORTFOLIO 🌴</div>
             <ul class="nav-links">
-                <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="about.html">ข้อมูลส่วนตัว</a></li>
-                <li><a href="goals.html">เป้าหมาย</a></li>
-                <li><a href="portfolio.html">แฟ้มสะสมผลงาน</a></li>
-                <li><a href="contact.html" class="active">ช่องทางการติดต่อ</a></li>
+                <li><a href="index.html">🏠 หน้าแรก</a></li>
+                <li><a href="about.html">👤 ข้อมูลส่วนตัว</a></li>
+                <li><a href="goals.html">🎯 เป้าหมาย</a></li>
+                <li><a href="portfolio.html">📜 ผลงาน</a></li>
+                <li><a href="contact.html" class="active">📞 ติดต่อ</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <h2>ช่องทางการติดต่อ</h2>
+        <h2>📞 ช่องทางการติดต่อ ☀️</h2>
         <div class="grid">
             <div class="box">
                 <i class="fas fa-phone"></i>
